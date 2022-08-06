@@ -5,9 +5,12 @@ import './App.css';
 import CompShowBlogs from './blog/ShowBlogs';
 import CompCreateBlog from './blog/CreateBlog';
 import CompEditBlog from './blog/EditBlog';
+import CargarReporte from './blog/CargarReporte';
+import ListaPostgrados from './blog/ListaPostgrados';
 
 //importamos el router
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import MostrarReporte from './blog/MostrarReportes';
 
 
 function App() {
@@ -20,7 +23,10 @@ function App() {
         <Routes>
             <Route path='/' element={ <CompShowBlogs />} />
             <Route path='/create' element={ <CompCreateBlog />} />
+            <Route path='/reportes' element={ <CargarReporte />} />
             <Route path='/edit/:id' element={ <CompEditBlog />} />
+            <Route path='/todos-los-reportes' element={ <MostrarReporte />} />
+            <Route path='/postgrados' element={ <ListaPostgrados />} />
         </Routes>
       </BrowserRouter>
       

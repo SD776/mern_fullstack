@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #020e25;
   min-height: 15vh;
   display: flex;
   flex-direction: column;
@@ -25,7 +25,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #190829;
 }
 
 @keyframes App-logo-spin {
@@ -37,6 +37,6 @@
   }
 }
 .tableTheadBg {
-  background-color: #6b48ff;
+  background-color: #110642;
   color:white
 }

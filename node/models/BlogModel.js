@@ -3,10 +3,33 @@ const Schema = mongoose.Schema
 
 const blogSchema = new Schema(
     {
-      title: {type:String},       
-      content: {type:String}
+      postgrado: {
+        type: String,
+        required: true
     },
-    {collection: 'blogs'}
+    usuarioEncargado: {
+        type: String,
+        required: true
+        
+    },
+    usuarioE:{
+        type: String,
+        required: true,
+        unique: true
+    },
+    claveUsuario: {
+        type: String,
+        required: true
+    },
+    
+    codUsuario: {
+        type: String,
+        required: true,
+        unique: true
+    },
+    materia:[],
+    },
+    {collection: 'administrador'}
 )
 
 export default mongoose.model('BlogModel', blogSchema)
