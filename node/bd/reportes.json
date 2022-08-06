@@ -1,0 +1,14 @@
+[{
+  "_id": {
+    "$oid": "62ee1c8142173734e9e3cb58"
+  },
+  "fecha": {
+    "$date": {
+      "$numberLong": "1661126400000"
+    }
+  },
+  "descripcion": "pago arancel",
+  "referencia": "4526",
+  "monto": "40",
+  "__v": 0
+}]

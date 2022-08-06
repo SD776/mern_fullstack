@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "62edfa79615a9bd3aa29ca09"
+  },
+  "postgrado": "Maestria en Informatica",
+  "usuarioEncargado": "Victor Mujica",
+  "codpost": "001",
+  "claveUsuario": "0000",
+  "codUsuario": "001",
+  "usuarioE": "VictorM"
+},{
+  "_id": {
+    "$oid": "62edfe92925a0362e2ec58af"
+  },
+  "postgrado": "Maestria en Ciencias Administrativas",
+  "usuarioEncargado": "Pedro Dorta",
+  "usuarioE": "DortaP",
+  "claveUsuario": "0001",
+  "codUsuario": "0002",
+  "__v": 0
+}]
